@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+
+    <!-- --------------- FAVICON --------------- -->
+    <link rel="icon" href="./images/favicon/favicon_pokeball.ico">
+    
+    <!-- --------------- HOJA DE ESTILO --------------- -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./images/LogosApartados/Pokemon49.png"></a>
+    </header>
+    <nav class="navegacion">
+        <div id="divinicio">
+            <a class="linknavegacion" href="./index.html">
+                <p class="efectosnavegacion">Inicio</p>
+            </a>
+        </div>
+        <div id="divpokedex">
+            <a class="linknavegacion" href="./pokedex.html">
+                
+                <p class="efectosnavegacion">Pokédex</p>
+            </a>
+        </div>
+        <div id="divvideojuegos">
+            <a class="linknavegacion" href="./videojuegos.html">
+            <p class="efectosnavegacion">Videojuegos</p>
+            </a>
+        </div>
+        <div id="divpagina4">
+            <a class="linknavegacion" href="./pagina4.html">
+            <p class="efectosnavegacion">Página4</p>
+            </a>
+        </div>
+        <div id="divsobrenosotros">
+            <a class="linknavegacion" href="./sobrenosotros.html">
+            <p class="efectosnavegacion">Sobre nosotros</p>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="subcontainer">
+            <div id="mensajebienvenida">
+                <h1 id="tituloBienvenida">Bienvenido a la página web de Alejandro</h1>
+            </div>
+            <div id="mensajesobrepagina">
+                <h2 id="introinicio">En esta página se hablará sobre los contenidos de la segunda generación de Pokémon</h2>
+            </div>
+            
+            <div class="contenidoGeneral">
+                <div id="muchotexto">
+                    <!-- TODO EL CONTENIDO DEL 50% IZQUIERDO -->
+                    <div id="muchotextoizquierda">
+                        <p class="pcontenidoinicio">La segunda generación (también denominada "generación metal") se refiere a la saga de videojuegos <a class="linksjuegos" href="./videojuegos.html">Pokémon Oro</a>, <a class="linksjuegos" href="./videojuegos.html">Plata</a> y <a class="linksjuegos" href="./videojuegos.html">Pokémon Cristal</a> para la consola Game Boy Color.</p>
+                            <br>
+                        <p class="pcontenidoinicio">Esta generación transcurre en las regiones de Johto y Kanto.</p>
+                            <br><br>
+                        <fieldset id="sumario">
+                            <legend id="legendsumario">&nbsp;&nbsp;SUMARIO&nbsp;&nbsp;</legend>
+                            <ol class="listasumario">
+                                <!-- SUMARIO 1. NOVEDADES -->
+                                <a href="#novedades"><li>Novedades</a>
+                                    <ol class="sublistasumario1">
+                                        <a href="#pokemonOroPlata"><li>Pokémon Oro y Pokémon Plata</li></a>
+                                        <a href="#pokemonCristal"><li>Pokémon Cristal</li></a>
+                                    </ol>
+                                </li>
+                                
+                                <!-- SUMARIO 2. REGIÓN -->
+                                <a href="#region"><li>Región</a>
+                                    <ol class="sublistasumario1">
+                                        <li><a href="#lideresGimnasio">Líderes de gimnasio</a></li>
+                                        <li><a href="#altoMando">Alto Mando</a></li>
+                                        <li><a href="#campeonKanto">Campéon (Kanto)</a></li>
+                                    </ol>
+                                </li>
+                                
+                                <!-- SUMARIO 3. CAMBIOS -->
+                                <li><a href="#cambiosGeneraciones">Cambios con respecto a generaciones anteriores</a>
+                                    <ol class="sublistasumario1">
+                                        <li><a href="">Efectividad entre tipos</a></li>
+                                        <li><a href="#categorias">Categorías</a></li>
+                                    </ol>
+                                </li>
+                                
+                                <!-- SUMARIO 4. CURIOSIDADES -->
+                                <li><a href="#curiosidades">Curiosidades</a></li>
+                        </fieldset>
+                        <br>
+                        <h1 id="novedades">Novedades</h1><br>
+                        <h3 id="pokemonOroPlata">Pokémon Oro y Pokémon Plata</h3>
+                        <p id="contenidoNovedades">Salió al mercado el 21 de noviembre de 1999 en Japón y se popularizó a gran velocidad ya que incluía revolucionarias novedades:</p>
+                        <li>Se añaden 100 nuevos Pokémon, llegando así a un total de 251 especies hasta el momento </li>
+                        <li>Los juegos incorporan un reloj interno que mantiene en progresión la hora incluso cuando se apaga la consola. Además, se introducen momentos del día que varían la luminosidad del mundo exterior y la aparición de ciertos Pokémon queda determinada por el momento del día en el que se juegue (mañana, día y noche).</li>
+                        <li>Nuevos iconos en el menú de Pokémon.</li>
+                        <li>Se añade el sistema de crianza Pokémon, donde aparecen nuevas preevoluciones y ataques que solo se pueden aprender por este método.</li>
+                        <li>Nuevas MO: cascada y torbellino.</li>
+                        <li>Se agregan dos nuevos tipos: siniestro y acero.</li>
+                        <li>Los Pokémon pueden ir equipados con objetos que podrán usar en combate.</li>
+                        <li>Se añade una barra de experiencia en la pantalla de combate.</li>
+                        <li>La característica de combate especial se separa en defensa especial y ataque especial</li>
+                        <li>Se añaden nuevos tipos de Poké Balls, obteniéndose estas gracioas a los bonguris.</li>
+                        <li>Se introduce el Pokérus.</li>
+                        <li>Aparece el PokéGear, el cual incluye un teléfono móvil, mapa y radio, posibilitando combatir con entrenadores ya vencidos entre otras características</li>
+                        <li>Magnemite y Magneton pasan a ser de tipo eléctrico a eléctrico/acero.</li>
+                        <li>Se añaden los climas. Se crean los movimientos día soleado, tormenta arena y danza lluvia.</li>
+                        <li>Algunos ataques cambian su tipo. Por ejemplo, mordisco cambia de tipo normal a siniestro y tornado cambia de tipo normal a volador. Se añaden nuevos movimientos, destacando los de tipo bicho destinados a equilibrar a los Pokémon del tipo psíquico, el cual era el tipo más fuerte en la primera generación.</li>
+                        <li>Se añaden nuevas evoluciones a Pokémon de primera generación (Crobat, Kingdra, Scizor y Steelix), y evoluciones alternativas a Pokémon que ya tenían (Bellossom, Politoed, Slowking, Espeon y Umbreon).</li>
+                        <li>Por primera vez, los Pokémon legendarios varían según la versión.</li>
+                        <li>La mochila donde se guardan los objetos se separa en diferentes compartimentos</li>
+                        
+                        <br>
+
+                        <h3 id="pokemonCristal">Pokémon Cristal</h3>
+
+                        <p id="contenidoNovedades">Tal como en la generación anterior, el éxito de Pokémon Oro y Plata hizo posible que se desarrollara una edición especial para esta generación: Pokémon Cristal. Esta versión introduce las siguientes novedades:</p>
+                        <li>Una nueva historia sobre Suicune y los Unown</li>
+                        <li>Opción de escoger ser chico o chica al comienzo del juego.</li>
+                        <li>Las imágenes de los Pokémon contienen una animación al salir al combate.</li>
+                        <li>Edición completamente a color, no compatible con la Game Boy clásica.</li>
+                        <li>Se introduce por primera vez un sistema de canje de puntos, mediante un objeto clave llamado tarjeta azul, a través del cual se pueden conseguir objetos raros como los caramelos raros.</li>
+                        <li>A partir de esta edición, cada vez que el jugador cambia de localización, aparece un cartel en una esquina de la pantalla que indica la nueva ubicación.</li>
+                        <li>Aparece por primera vez la Torre Batalla, situada en la Ruta 40.</li>
+                        
+                        <br><br>
+                    </div>
+
+                    <!-- TODO EL CONTENIDO DEL 50% DERECHO -->
+                    <div id="muchotextoderecha">
+                        <br><br>
+                        <div class="imagenesInicio">
+                            <img src="./images/CaratulaPokemonOro.jpg">
+                            <p>Portada de Pokémon edición Oro</p>
+                        </div>
+                        <br><br>
+                        <div class="imagenesInicio">
+                            <img src="./images/CaratulaPokemonPlata.jpg">
+                            <p>Portada de Pokémon edición Plata</p>
+                        </div>
+                        <div class="imagenesInicio">
+                            <img src="./images/CaratulaPokemonCristal.jpg">
+                            <p>Portada de Pokémon edición Cristal</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="contenidoGeneral">
+                <h1 id="region">Región</h1><br>
+                        <h2 id="lideresGimnasio">Líderes de gimnasio</h3>
+                        
+                        <!-- TABLA LÍDERES JOHTO -->
+                        <h3 id="enJohto">En Johto</h3>
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="linea1Tabla">#</td>
+                                <td class="linea1Tabla">Líder</td>
+                                <td class="linea1Tabla">tipo</td>
+                                <td class="linea1Tabla">Lugar</td>
+                                <td class="linea1Tabla">Medalla</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoVoladorTabla">1</td>
+                                <td class="tipoVoladorTabla">
+                                    <img src="./images/Personas/Pegaso_OPC.png"><br>
+                                    Pegaso</td>
+                                <td class="tipoVoladorTabla">Volador</td>
+                                <td>Ciudad Malva</td>
+                                <td>Medalla Céfiro</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoBichoTabla">2</td>
+                                <td class="tipoBichoTabla">
+                                    <img src="./images/Personas/Antón_OPC.png"><br>
+                                    Antón</td>
+                                <td class="tipoBichoTabla">Bicho</td>
+                                <td>Ciudad Azalea</td>
+                                <td>Medalla Colmena</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoNormalTabla">3</td>
+                                <td class="tipoNormalTabla">
+                                    <img src="./images/Personas/Blanca_OPC.png"><br>
+                                    Blanca</td>
+                                <td class="tipoNormalTabla">Normal</td>
+                                <td>Ciudad Trigal</td>
+                                <td>Medalla Planicie</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoFantasmaTabla">4</td>
+                                <td class="tipoFantasmaTabla">
+                                    <img src="./images/Personas/Morti_OPC.png"><br>
+                                    Morti</td>
+                                <td class="tipoFantasmaTabla">Fantasma</td>
+                                <td>Ciudad Iris</td>
+                                <td>Medalla Niebla</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoLuchaTabla">5</td>
+                                <td class="tipoLuchaTabla">
+                                    <img src="./images/Personas/Aníbal_OPC.png"><br>
+                                    Ánibal</td>
+                                <td class="tipoLuchaTabla">Lucha</td>
+                                <td>Ciudad Orquídea</td>
+                                <td>Medalla Tormenta</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoAceroTabla">6</td>
+                                <td class="tipoAceroTabla">
+                                    <img src="./images/Personas/Yasmina_OPC.png"><br>
+                                    Yasmina</td>
+                                <td class="tipoAceroTabla">Acero</td>
+                                <td>Ciudad Olivo</td>
+                                <td>Medalla Mineral</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoHieloTabla">7</td>
+                                <td class="tipoHieloTabla">
+                                    <img src="./images/Personas/Fredo_OPC.png"><br>
+                                    Fredo</td>
+                                <td class="tipoHieloTabla">Hielo</td>
+                                <td>Pueblo Caoba</td>
+                                <td>Medalla Glaciar</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoDragonTabla">8</td>
+                                <td class="tipoDragonTabla">
+                                    <img src="./images/Personas/Débora_OPC.png"><br>
+                                    Débora</td>
+                                <td class="tipoDragonTabla">Dragón</td>
+                                <td>Ciudad Endrino</td>
+                                <td>Medalla Dragón</td>
+                            </tr>
+                        </table>
+                        <br>
+                        
+                        <!-- TABLA LÍDERES KANTO -->
+                        <h3 id="enKanto">En Kanto</h3> 
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="linea1Tabla">#</td>
+                                <td class="linea1Tabla">Líder</td>
+                                <td class="linea1Tabla">tipo</td>
+                                <td class="linea1Tabla">Lugar</td>
+                                <td class="linea1Tabla">Medalla</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoElectricoTabla">1</td>
+                                <td class="tipoElectricoTabla">
+                                    <img src="./images/Personas/Lt._Surge_OPC.png"><br>
+                                    Teniente Surge</td>
+                                <td class="tipoElectricoTabla">Eléctrico</td>
+                                <td>Ciudad Carmín</td>
+                                <td>Medalla Trueno</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoPsiquicoTabla">2</td>
+                                <td class="tipoPsiquicoTabla">
+                                    <img src="./images/Personas/Sabrina_OPC.png"><br>
+                                    Sabrina</td>
+                                <td class="tipoPsiquicoTabla">Psíquico</td>
+                                <td>Ciudad Azafrán</td>
+                                <td>Medalla Pantano</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoAguaTabla">3</td>
+                                <td class="tipoAguaTabla">
+                                    <img src="./images/Personas/Misty_OPC.png"><br>
+                                    Misty</td>
+                                <td class="tipoAguaTabla">Agua</td>
+                                <td>Ciudad Celeste</td>
+                                <td>Medalla Cascada</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoPlantaTabla">4</td>
+                                <td class="tipoPlantaTabla">
+                                    <img src="./images/Personas/Erika_OPC.png"><br>
+                                    Erika</td>
+                                <td class="tipoPlantaTabla">Planta</td>
+                                <td>Ciudad Azulona</td>
+                                <td>Medalla Arcoiris</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoRocaTabla">5</td>
+                                <td class="tipoRocaTabla">
+                                    <img src="./images/Personas/Brock_OPC.png"><br>
+                                    Brock</td>
+                                <td class="tipoRocaTabla">Roca</td>
+                                <td>Ciudad Plateada</td>
+                                <td>Medalla Roca</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoVenenoTabla">6</td>
+                                <td class="tipoVenenoTabla">
+                                    <img src="./images/Personas/Sachiko_OPC.png"><br>
+                                    Sachiko</td>
+                                <td class="tipoVenenoTabla">Veneno</td>
+                                <td>Ciudad Fucsia</td>
+                                <td>Medalla</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoFuegoTabla">7</td>
+                                <td class="tipoFuegoTabla">
+                                    <img src="./images/Personas/Blaine_OPC.png"><br>
+                                    Blaine</td>
+                                <td class="tipoFuegoTabla">Fuego</td>
+                                <td>Isla Espuma</td>
+                                <td>Medalla Volcán</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoVariosTabla">8</td>
+                                <td class="tipoVariosTabla">
+                                    <img src="./images/Personas/Azul_OPC.png"><br>
+                                    Azul</td>
+                                <td class="tipoVariosTabla">Varios</td>
+                                <td>Ciudad Verde</td>
+                                <td>Medalla Tierra</td>
+                            </tr>
+                        </table>
+                        <br>
+
+                        <!-- TABLA ALTO MANDO -->
+                        <h3 id="altoMando">Alto Mando</h3>
+                        <br>
+                        <table>
+                            <tr>
+                                <td class="tipoPsiquicoTabla">
+                                    <img src="./images/Personas/Mento_OPC.png"><br>
+                                    Mento</td>
+                                <td class="tipoVenenoTabla">
+                                    <img src="./images/Personas/Koga_OPC.png"><br>
+                                    Koga</td>
+                                <td class="tipoLuchaTabla">
+                                    <img src="./images/Personas/Bruno_OPC.png"><br>
+                                    Bruno</td>
+                                <td class="tipoSiniestroTabla">
+                                    <img src="./images/Personas/Karen_OPC.png"><br>
+                                    Karen</td>
+                                <td class="tipoDragonTabla">
+                                    <img src="./images/Personas/Lance_OPC.png"><br>
+                                    Lance</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoPsiquicoTabla">Psíquico</td>
+                                <td class="tipoVenenoTabla">Veneno</td>
+                                <td class="tipoLuchaTabla">Lucha</td>
+                                <td class="tipoSiniestroTabla">Siniestro</td>
+                                <td class="tipoDragonTabla">Dragón</td>
+                            </tr>
+                            
+                        </table>
+                        
+                        <br>
+                        <!-- TABLA CAMPEÓN KANTO-->
+                        <h3 id="campeonKanto">Campeón (Kanto)</h3>
+                        <br>
+                        <table id="tablaCampeonKanto">
+                            <tr>
+                                <td class="linea1Tabla">Campeón</td>
+                            </tr>
+                            <tr>
+                                <td class="tipoVariosTabla">
+                                    <img src="./images/Personas/Rojo_OPC.png"><br>
+                                    Rojo</td>
+                            </tr>
+                            <tr>
+                                <td>Varios</td>
+                            </tr>
+                        </table>
+                        <br><br>
+
+                        <h1 id="cambiosGeneraciones">Cambios con respecto a generaciones anteriores</h1>
+                        <h2 id="efectividadEntretipos">Efectividad entre tipos</h2>
+                        <p>A partir de la segunda generación se producen una serie de cambios:</p>
+                        <li class="listasCambios">Los ataques de tipo bicho ahora son poco efectivos contra Pokémon de tipo veneno.</li>
+                        <li class="listasCambios">Los ataques de tipo veneno ahora hacen daño normal a los Pokémon de tipo bicho.</li>
+                        <li class="listasCambios">Los ataques de tipo fantasma ahora son súper efectivos contra Pokémon de tipo psíquico.</li>
+                        <li class="listasCambios">Los ataques de tipo hielo ahora son poco efectivos contra Pokémon de tipo fuego.</li>
+                        <br>
+                        <h2 id="categorias">Categorías</h2>
+                        <p>Se ha cambiado el nombre de la categoría de varios Pokémon en la Pokédex, para darles un nombre más correcto.</p>
+                        <li class="listasCambios">Pokémon Hierbajo, anteriormente Pokémon Algas: Oddish y Gloom.</li>
+                        <br><br>
+                        
+                        <h1 id="curiosidades">Curiosidades</h1>
+                        <li class="listasCambios">La segunda y la séptima generación son las únicas generaciones que no incluyeron ningún nuevo fósil.</li>
+                        <li class="listasCambios">Es la región que menos Pokémon de tipo dragón y tipo fantasma ha incluido, con uno de cada tipo: Kingdra y Misdreavus.</li>
+                        <li class="listasCambios">Es la primera generación en incluir dos regiones en las 3 mismas ediciones.</li>
+                        <li class="listasCambios">Hay 16 líderes en total, 8 de Johto y 8 de Kanto, con 10 nuevos líderes y 8 nuevos gimnasios, cada uno representa un elemento de Pokémon excepto el tipo siniestro.</li>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <img src="./images/PikachuPeak.png" width="100vw" height="50vh">
+</footer>
+</html>
